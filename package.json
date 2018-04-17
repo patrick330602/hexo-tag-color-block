@@ -1,0 +1,29 @@
+{
+  "name": "hexo-tag-color-block",
+  "version": "0.0.1",
+  "description": "Create Color Tag Easily on GitHub",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patrick330602/hexo-tag-color-block.git"
+  },
+  "bugs": {
+    "url": "https://github.com/patrick330602/hexo-tag-color-block/issues"
+  },
+  "keywords": [
+    "hexo",
+    "blog",
+    "tag",
+    "color"
+  ],
+  "author": {
+    "name": "Patrick Wu",
+    "email": "wotingwu@live.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "hexo": "*"
+  },
+  "dependencies": {
+  }
+}
