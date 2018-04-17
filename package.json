@@ -1,7 +1,7 @@
 {
   "name": "hexo-tag-color-block",
   "version": "0.0.1",
-  "description": "Create Color Tag Easily on GitHub",
+  "description": "Create Color Tag Easily on Hexo",
   "main": "index.js",
   "repository": {
     "type": "git",
