@@ -6,13 +6,13 @@ Create Color Block Easily on Hexo
 
 `npm i hexo-tag-color-block`
 
-## Usage 
+## Usage
 
 The full tag format is as follows:
 
 `{% colorblock [color hex code] [width] [height] %}`
 
-example: 
+Example:
 
 `{% colorblock #f8dcf8 %}` will generate:
 
@@ -24,7 +24,9 @@ You can configure the dafault width in your site `_config.yml`:
 ```yml
 code_block:
   width: 
-  height: 
+  height:
+  # whether you want to show hex code
+  text:
 ```
 
 default configuration:
@@ -33,6 +35,7 @@ default configuration:
 code_block:
   width: 10
   height: 10
+  text: true
 ```
 
 ## License
