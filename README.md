@@ -10,7 +10,7 @@ Create Color Block Easily on Hexo
 
 The full tag format is as follows:
 
-`{% colorblock [color hex code] %}` or `{% colorblock [color hex code] [width] %}`
+`{% colorblock [color hex code] [width] [height] %}`
 
 example: 
 
@@ -23,10 +23,17 @@ You can configure the dafault width in your site `_config.yml`:
 
 ```yml
 code_block:
-  width: 10
+  width: 
+  height: 
 ```
 
-default width is 10.
+default configuration:
+
+```yml
+code_block:
+  width: 10
+  height: 10
+```
 
 ## License
 
